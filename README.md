@@ -99,3 +99,7 @@ Make sure MongoDB is running locally, then start the server using:
 ```bash
 nodemon app.js
 ```
+## 🖼️ UI Preview
+
+Here’s a quick look at the WanderLust user interface:
+![WanderLust UI](https://github.com/IshaGala/WanderLust/blob/main/ui-preview.PNG)
