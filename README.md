@@ -1,4 +1,4 @@
-# WanderLust 🌍 – Your Gateway to Memorable Stays
+![image](https://github.com/user-attachments/assets/c2623530-829e-4a63-80b6-304691675fc4)# WanderLust 🌍 – Your Gateway to Memorable Stays
 ## Overview
 WanderLust is a full-stack web application enabling users to explore, list, and book unique accommodations across the globe. It provides an intuitive interface for both hosts and travelers to interact seamlessly on a dynamic platform.
 
@@ -75,6 +75,7 @@ Whether you're looking to share your space or discover new stays, WanderLust off
 ```bash
 git clone https://github.com/IshaGala/WanderLust.git
 cd WanderLust
+```
 
 2. Install Dependencies
 Make sure you have Node.js and npm installed.
