@@ -36,32 +36,35 @@ Whether you're looking to share your space or discover new stays, WanderLust off
 ## 🛠️ Tech Stack
 
 ### 🌐 Frontend
-- **EJS (Embedded JavaScript Templates)** – Server-side templating engine for rendering dynamic HTML content
+- **EJS (Embedded JavaScript Templates)** – Server-side rendering for dynamic views (`/views`)
 - **HTML5, CSS3, Bootstrap** – For styling and responsive layout
 
 ### 🧠 Backend
-- **Node.js** – JavaScript runtime environment
-- **Express.js** – Web application framework for building RESTful APIs and handling server logic
+- **Node.js** – JavaScript runtime for the server
+- **Express.js** – Web application framework (`app.js`, `/routes/`)
 
 ### 🗃️ Database
-- **MongoDB** – NoSQL database for storing listings, users, and reviews
-- **Mongoose** – ODM for modeling MongoDB data in Node.js
+- **MongoDB** – NoSQL database to store users, listings, and reviews
+- **Mongoose** – ODM to model and query MongoDB (`/models/`)
 
 ### ☁️ Cloud & APIs
-- **Cloudinary** – Image storage and management
-- **Mapbox** – Interactive map API for location visualization
+- **Cloudinary** – Image upload and hosting (`cloudConfig.js`)
+- **Mapbox** – Location services and interactive maps (used in views/listings)
 
 ### 🔐 Authentication & Authorization
-- **Passport.js** – Middleware for user authentication
-- **express-session & connect-mongo** – Session management and persistent login with MongoDB
+- **Passport.js** – Used for local authentication
+  - `app.js` – Initialization and session setup
+  - `models/user.js` – User schema using `passport-local-mongoose`
+  - `routes/users.js` – Routes for login, signup using `passport.authenticate('local')`
+- **express-session & connect-mongo** – Session and cookie storage with MongoDB
 
 ### ⚙️ Utilities & Middleware
-- **Multer** – Handling file uploads (images)
-- **method-override** – Supporting PUT and DELETE HTTP methods in HTML forms
-- **connect-flash** – Flash messages for alerts and notifications
-- **Custom Middleware** – `wrapAsync`, `isLoggedIn`, `isAuthor`, `validateListing`, etc.
+- **Multer** – Handles image uploads
+- **method-override** – Enables HTTP verbs like PUT & DELETE in forms
+- **connect-flash** – Flash messages for alerts
+- **Custom Middleware** – Error handling and async wrappers (`/utils/ExpressError.js`, `/utils/wrapAsync.js`)
 
 ### 📦 Dev Tools
-- **Nodemon** – Development server with live-reload
-- **dotenv** – Environment variable management
+- **Nodemon** – Auto-restart server during development
+- **dotenv** – Manage environment variables
 - **Git & GitHub** – Version control and collaboration
