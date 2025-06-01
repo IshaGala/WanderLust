@@ -68,28 +68,34 @@ Whether you're looking to share your space or discover new stays, WanderLust off
 - **Nodemon** – Auto-restart server during development
 - **dotenv** – Manage environment variables
 - **Git & GitHub** – Version control and collaboration
-## Setup Instructions
+## ⚙️ Setup Instructions
 
-### 1. Clone the Repository
+### 📁 1. Clone the Repository
 
 ```bash
 git clone https://github.com/IshaGala/WanderLust.git
 cd WanderLust
 ```
 
-2. Install Dependencies
+### 📦 2. Install Dependencies
 Make sure you have Node.js and npm installed.
+```bash
 npm install
+```
 
-3. Configure Environment Variables
+### 🔐 3. Configure Environment Variables
 Create a .env file in the root directory and add the following:
+```bash
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_KEY=your_cloudinary_key
 CLOUDINARY_SECRET=your_cloudinary_secret
 MAPBOX_TOKEN=your_mapbox_token
 DB_URL=mongodb://localhost:27017/wanderlust
 SECRET=your_session_secret
+```
 
-4. Run the Application
+### ▶️ 4. Run the Application
 Make sure MongoDB is running locally, then start the server using:
+```bash
 nodemon app.js
+```
