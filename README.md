@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c2623530-829e-4a63-80b6-304691675fc4)# WanderLust 🌍 – Your Gateway to Memorable Stays
+# WanderLust 🌍 – Your Gateway to Memorable Stays
 ## Overview
 WanderLust is a full-stack web application enabling users to explore, list, and book unique accommodations across the globe. It provides an intuitive interface for both hosts and travelers to interact seamlessly on a dynamic platform.
 
