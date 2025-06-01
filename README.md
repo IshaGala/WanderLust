@@ -68,3 +68,28 @@ Whether you're looking to share your space or discover new stays, WanderLust off
 - **Nodemon** – Auto-restart server during development
 - **dotenv** – Manage environment variables
 - **Git & GitHub** – Version control and collaboration
+## ⚙️ Setup Instructions
+
+Follow these steps to set up and run the WanderLust project locally on your machine.
+
+### 📁 1. Clone the Repository
+
+Clone the project using Git:
+
+```bash
+git clone https://github.com/IshaGala/WanderLust.git
+cd airbnb
+
+### 📦 2. Install Dependencies
+npm install
+
+### 🔐 3. Configure Environment Variables
+CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+CLOUDINARY_KEY=your_cloudinary_key
+CLOUDINARY_SECRET=your_cloudinary_secret
+MAPBOX_TOKEN=your_mapbox_token
+DB_URL=mongodb://localhost:27017/wanderlust
+SECRET=your_session_secret
+
+▶️ 4. Run the Application
+nodemon app.js
