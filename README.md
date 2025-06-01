@@ -33,3 +33,35 @@ Whether you're looking to share your space or discover new stays, WanderLust off
 
 - 📦 **RESTful Routing Architecture**  
   Modular route structure following REST conventions for scalability and maintainability.
+## 🛠️ Tech Stack
+
+### 🌐 Frontend
+- **EJS (Embedded JavaScript Templates)** – Server-side templating engine for rendering dynamic HTML content
+- **HTML5, CSS3, Bootstrap** – For styling and responsive layout
+
+### 🧠 Backend
+- **Node.js** – JavaScript runtime environment
+- **Express.js** – Web application framework for building RESTful APIs and handling server logic
+
+### 🗃️ Database
+- **MongoDB** – NoSQL database for storing listings, users, and reviews
+- **Mongoose** – ODM for modeling MongoDB data in Node.js
+
+### ☁️ Cloud & APIs
+- **Cloudinary** – Image storage and management
+- **Mapbox** – Interactive map API for location visualization
+
+### 🔐 Authentication & Authorization
+- **Passport.js** – Middleware for user authentication
+- **express-session & connect-mongo** – Session management and persistent login with MongoDB
+
+### ⚙️ Utilities & Middleware
+- **Multer** – Handling file uploads (images)
+- **method-override** – Supporting PUT and DELETE HTTP methods in HTML forms
+- **connect-flash** – Flash messages for alerts and notifications
+- **Custom Middleware** – `wrapAsync`, `isLoggedIn`, `isAuthor`, `validateListing`, etc.
+
+### 📦 Dev Tools
+- **Nodemon** – Development server with live-reload
+- **dotenv** – Environment variable management
+- **Git & GitHub** – Version control and collaboration
