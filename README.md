@@ -78,12 +78,14 @@ Clone the project using Git:
 
 ```bash
 git clone https://github.com/IshaGala/WanderLust.git
-cd airbnb
+cd WanderLust
 
-### 📦 2. Install Dependencies
+📦 2. Install Dependencies
+Make sure you have Node.js and npm installed. Then run: 
 npm install
 
-### 🔐 3. Configure Environment Variables
+🔐 3. Configure Environment Variables
+Create a .env file in the root directory and add the following:
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name
 CLOUDINARY_KEY=your_cloudinary_key
 CLOUDINARY_SECRET=your_cloudinary_secret
@@ -92,4 +94,5 @@ DB_URL=mongodb://localhost:27017/wanderlust
 SECRET=your_session_secret
 
 ▶️ 4. Run the Application
+Start the server using:
 nodemon app.js
