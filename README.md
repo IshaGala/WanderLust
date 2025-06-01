@@ -7,29 +7,29 @@ The application is built using the MERN-like stack, combining the power of Mongo
 Whether you're looking to share your space or discover new stays, WanderLust offers a simplified and elegant solution for modern travel experiences.
 ## ✨ Features
 
-- 🔐 **User Authentication**  
-  Users can register, log in, and log out securely using Passport.js.
+- 🔐 **User Authentication (Sessions & Cookies)**  
+  Users can register, log in, and log out securely using sessions and cookies.
 
-- 🏠 **Create, Read, Update, Delete (CRUD) Listings**  
-  Authenticated users can add new stays, edit existing ones, and delete their own listings.
+- 🏠 **CRUD Listings**  
+  Authenticated users can create, update, and delete their property listings.
 
 - 🖼️ **Image Upload with Cloudinary**  
   Upload and manage multiple images per listing, stored securely on Cloudinary.
 
 - 📍 **Location-Based Listings**  
-  Listings include location details, and integration with Mapbox allows users to view stay locations on a dynamic map.
+  Listings include location details. Mapbox integration allows users to visualize stays on an interactive map.
 
 - 💬 **Reviews & Ratings**  
-  Logged-in users can leave reviews and ratings for stays to help other users make informed decisions.
+  Users can post reviews and ratings for listings, helping others make informed decisions.
 
 - 💻 **Responsive Design**  
-  Fully responsive layout that works across desktops, tablets, and mobile devices.
+  Optimized layout for seamless experience across desktops, tablets, and mobile devices.
 
-- ⚙️ **Flash Messages & Error Handling**  
-  Real-time feedback for user actions (e.g., login errors, successful listings, etc.).
+- ⚙️ **Flash Messaging & Error Handling**  
+  Get instant feedback on actions like login, signup, review submission, etc.
 
-- 🔒 **Authorization Middleware**  
-  Protects routes to ensure only the listing owner can edit or delete their content.
+- 🔒 **Authorization & Ownership Control**  
+  Only listing owners can modify or delete their own content using authorization middleware.
 
-- 📦 **RESTful Routing**  
-  Clean and organized routing structure following RESTful principles.
+- 📦 **RESTful Routing Architecture**  
+  Modular route structure following REST conventions for scalability and maintainability.
